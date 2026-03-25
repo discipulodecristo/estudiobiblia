@@ -27,8 +27,8 @@
 ' %}
   {% for linea in lineas %}
     {% assign limpio = linea | strip %}
-    {% if limpio contains '_*' and limpio != '' %}
-      {% assign partes = limpio | split: '_*' %}
+    {% if limpio contains ']]' and limpio != '' %}
+      {% assign partes = limpio | split: ']]' %}
       {% assign num = partes[0] %}
       {% assign resto = partes[1] %}
       <div class="m">
