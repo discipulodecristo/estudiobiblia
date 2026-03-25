@@ -1,13 +1,12 @@
-
 ---
 layout: plantilla
-title: "Índice"
+title: "Inicio"
 menu_titulo: "INICIO"
-anterior: "/#"
-indice: "/#"
-siguiente: "/ensayos/ladron.md"
+anterior: "/estudiobiblia/#"
+indice: "/estudiobiblia/#"
+siguiente: "/estudiobiblia/ensayos/ladron-en-la-cruz.html"
 ---
 
-# Bienvenido
+# Bienvenido a los Estudios Bíblicos UDDC
 
-- ensayos/ladron.md
+- [El Ladrón en la Cruz](/estudiobiblia/ensayos/ladron-en-la-cruz.html)
