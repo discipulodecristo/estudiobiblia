@@ -23,42 +23,24 @@
 <!-- ✅ CONTENIDO PROCESADO -->
 <div class="main">
 
-  
   {% assign lineas = content | split: '
 ' %}
-
   {% for linea in lineas %}
     {% assign limpio = linea | strip %}
-
-    {%- comment -%}
-      ✅ PROCESAR PALABRAS DE JESÚS
-      Convierte @@texto@@ → <span class="wj">texto</span>
-    {%- endcomment -%}
-
-    {% assign procesada = limpio | replace: '@@', '§§' %}
-    {% assign procesada = procesada | replace_first: '§§', '<span class='wj'>' %}
-    {% assign procesada = procesada | replace_first: '§§', '</span>' %}
-
-    {%- comment -%}
-      ✅ PROCESAR VERSÍCULOS TIPO 40]] texto
-    {%- endcomment -%}
-
-    {% if procesada contains ']]' and procesada != '' %}
-      {% assign partes = procesada | split: ']]' %}
+    {% if limpio contains '@' and limpio != '' %}
+      {% assign partes = limpio | split: '@' %}
       {% assign num = partes[0] %}
       {% assign resto = partes[1] %}
       <div class="m">
         <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
       </div>
-
     {% else %}
-      {% if procesada != '' %}
-        <div class="m">{{ procesada }}</div>
+      {% if limpio != '' %}
+        <div class="m">{{ linea }}</div>
       {% else %}
         <br>
       {% endif %}
     {% endif %}
-
 
   {% endfor %}
 
