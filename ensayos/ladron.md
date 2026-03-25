@@ -32,7 +32,8 @@ La Escritura lo confirma:
 
 # MATEO 10
 
-**1** Y llamando a sí sus doce discípulos, les dio potestad contra los espíritus inmundos…  
+
+1@ Y llamando a sí sus doce discípulos, les dio potestad contra los espíritus inmundos…  
 **2–4** *(lista de apóstoles)*  
 **5** Estos doce envió Jesús…  
 **6** Mas id antes a las ovejas perdidas de la casa de Israel.
