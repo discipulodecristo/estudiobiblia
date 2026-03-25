@@ -173,3 +173,43 @@ ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:center;float:le
 .vnav a:hover	{background-color:#0520ff !important;color:#ffffff}
 
 div.bookList	{float:left;margin:0px;padding:3px;width:13em;background:rgb(26,27,28)}
+
+
+/* ================================
+   ✅ OPTIMIZACIONES PARA ZOOM
+   ================================ */
+
+/* Permitir que el texto escale correctamente con zoom */
+html, body {
+    font-size: 100% !important;
+    -webkit-text-size-adjust: 100% !important;  /* iPhone/iPad */
+    text-size-adjust: 100% !important;
+}
+
+/* Asegurar que el contenedor principal pueda expandirse al hacer zoom */
+.main {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Evitar que el texto se desborde en zoom grande */
+.main, .m, .chapterlabel, .verse {
+    overflow-wrap: break-word;   /* Maneja palabras largas */
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Asegurar que los elementos se ajusten en pantallas pequeñas */
+body {
+    overflow-x: hidden !important;  /* Evita scroll lateral */
+}
+
+/* Permitir que navegación y botones también respondan al zoom */
+.tnav a, .vnav a {
+    font-size: 1em !important;     /* Hace que escalen con el zoom */
+}
+
+/* Corrige algunos tamaños fijos de tu CSS que impedían escalar */
+h1, h2, h3, .chapterlabel {
+    font-size: 1.2em !important;
+}
