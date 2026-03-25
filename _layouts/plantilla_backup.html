@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="user-scalable=yes, initial-scale=1, minimum-scale=1, width=device-width"/>
+  <meta name="keywords" content="Santa Biblia Valera 1602 Purificada, spa, Holy Bible, Scripture, Bible, Scriptures, New Testament, Old Testament, Gospel, evangelio, jesucristo, jesus, Dios, cristo, mesias" />
+</head>
+
+  <!-- ✅ CARGA CORRECTA DEL CSS -->
+  <link rel="stylesheet" href="/estudiobiblia/css/gentiumplus.css">
+
+  <title>{{ page.title }}</title>
+</head>
+
+<body>
+
+<!-- ✅ MENÚ SUPERIOR -->
+<ul class="tnav">
+  <li><a href="{{ page.anterior }}">{{ page.menu_titulo }}</a></li>
+</ul>
+
+<!-- ✅ CONTENIDO PROCESADO -->
+<div class="main">
+
+{% assign lineas = content | split: '
+' %}
+
+  {% for linea in lineas %}
+    {% assign limpio = linea | strip %}
+
+    {%- comment -%}
+      PROCESAR PALABRAS DE JESÚS ([[ ... ]]) SIN TOCAR TU LÓGICA EXISTENTE
+    {%- endcomment -%}
+
+    {% assign frase = limpio %}
+    {% if frase contains '[[' %}
+      {% assign frase = frase | replace: '[[', '<span class="wj">' %}
+      {% assign frase = frase | replace: ']]', '</span>' %}
+    {% endif %}
+
+    {%- comment -%}
+      A PARTIR DE AQUÍ — TU CÓDIGO ORIGINAL DE VERSOS, SIN CAMBIOS
+    {%- endcomment -%}
+
+    {% if frase contains '@' and frase != '' %}
+      {% assign partes = frase | split: '@' %}
+      {% assign num = partes[0] %}
+      {% assign resto = partes[1] %}
+      <div class="m">
+        <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
+      </div>
+    {% else %}
+      {% if frase != '' %}
+        <div class="m">{{ frase }}</div>
+      {% else %}
+        <br>
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
+
+</div>
+
+<!-- ✅ PIE DE PÁGINA -->
+
+<br>
+<br>
+<br>
+</div><ul class='tnav'>
+<li><a href="{{ page.anterior }}">{{ page.menu_titulo }}</a></li>
+</ul>
+<div class="footnote">
+<hr />
+</div>
+<div class="copyright">
+
+<p align="center"><a href='/estudiobiblia/copyright.html'>© 2007, 2019, 2024 Iglesia Bautista Bíblica de la Gracia</a></p>
+</div>
+</div></body></html>
+</body>
+</html>
