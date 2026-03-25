@@ -29,10 +29,11 @@ Recordemos que Jesús ministró **EXCLUSIVAMENTE** a los Judíos.
 Comentarios
 
 Texto bíblico a continuación:
-
+&#32;
 1@ este es el primer versículo
 2@ segundo versiculo
-3@ versiculo tercero siguiente en misma linea 4@ misma linea verso 4
+3@ versiculo tercero siguiente en misma linea 
+4@ misma linea verso 4
 
 y meto comentarios
 
