@@ -10,7 +10,7 @@ siguiente: "/index.htm"
 # LUCAS 23 #
 
 39@ Y uno de los malhechores que estaban colgados, le injuriaba, diciendo: Si tú eres el Cristo, sálvate a ti mismo, y a nosotros. 
-39@ y uno...
+39@ y uno de los malhechores que estaban colgados, le injuriaba, diciento: Si tù eres el Cristo, sálvate a ti mismo, y a nosotros.
 40@ Y respondiendo el otro, le reprendió, diciendo: ¿Ni aun tú temes a Dios, estando en la misma condenación?  
 41@ Y nosotros, a la verdad, justamente, porque recibimos lo que merecieron nuestros hechos; mas éste ningún mal hizo.  
 42@ Y decía a Jesús: Señor, acuérdate de mí cuando vinieres en tu reino.  
@@ -23,7 +23,8 @@ Recordemos que Jesús ministró **EXCLUSIVAMENTE** a los Judíos.
 
 # ROMANOS 15
 
-**8** Digo pues, que Cristo Jesús fue ministro de la circuncisión por la verdad de Dios, para confirmar las promesas hechas a los padres.
+8@ Digo pues, que Cristo Jesús fue ministro de la circuncisión por la verdad de Dios, para confirmar las promesas hechas a los padres.
+8@ digo pues, que Cristo Jesùs fue ministro de la circuncisiòn por la verdad de Dios, para confirmar las promesas hecas a los padres. Amé, amén, Glora a Dios en las alturas!!!!
 
 La Escritura lo confirma:
 
