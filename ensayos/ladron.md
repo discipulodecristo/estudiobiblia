@@ -2,7 +2,7 @@
 layout: plantilla
 title: "El Ladrón en la Cruz"
 menu_titulo: "EL LADRON EN LA CRUZ"
-anterior: "/estudiobiblia/index.htm"
+anterior: "/estudiobiblia/index.html"
 indice: "index.htm"
 siguiente: "index.htm"
 ---
