@@ -37,4 +37,5 @@ Texto bíblico a continuación:
 
 y meto comentarios
 
-y dice jesùs: [[por favor...]] ¡funciona? ojalaà 30@ verso treinta
+y dice jesùs: [[por favor...]] ¡funciona? ojalaà 
+30@ verso treinta
