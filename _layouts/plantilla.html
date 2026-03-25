@@ -23,34 +23,38 @@
 <!-- ✅ CONTENIDO PROCESADO -->
 <div class="main">
 
-  {% assign lineas = content | split: '
-' %}
+  
+{% raw %}
+{% assign lineas = content | newline_to_br | split: "<br />" %}
+{% endraw %}
 
-  {% for linea in lineas %}
+{% for linea in lineas %}
+  {% assign limpio = linea | strip %}
 
-    {% assign limpio = linea | strip %}
+  {% comment %}
+    Detectar SOLO si la línea EMPIEZA con un número seguido de "__"
+  {% endcomment %}
 
-    {% if limpio contains '__' and limpio != '' %}
+  {% assign num_posible = limpio | split: "__" | first %}
 
-      {% assign partes = limpio | split: '__' %}
-      {% assign num = partes[0] %}
-      {% assign resto = partes[1] %}
+  {% if limpio startswith num_posible and num_posible matches '^[0-9]+$' %}
+    {% assign resto = limpio | remove: num_posible | remove: '__' %}
 
-      <div class="m">
-        <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
-      </div>
+    <div class="m">
+      <span class="verse">{{ num_posible }}&nbsp;</span> {{ resto }}
+    </div>
 
+  {% else %}
+
+    {% if limpio != "" %}
+      <div class="m">{{ linea }}</div>
     {% else %}
-
-      {% if limpio != '' %}
-        <div class="m">{{ linea }}</div>
-      {% else %}
-        <br>
-      {% endif %}
-
+      <br>
     {% endif %}
 
-  {% endfor %}
+  {% endif %}
+
+{% endfor %}
 
 </div>
 
