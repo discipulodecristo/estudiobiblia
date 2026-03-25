@@ -23,43 +23,17 @@
 <!-- ✅ CONTENIDO PROCESADO -->
 <div class="main">
 
-
-  {% assign lineas = content | split: '
+{% assign lineas = content | split: '
 ' %}
-
   {% for linea in lineas %}
     {% assign limpio = linea | strip %}
-
-    {% if limpio contains '@' %}
+    {% if limpio contains '@' and limpio != '' %}
       {% assign partes = limpio | split: '@' %}
-      {% assign num = partes[0] | strip %}
+      {% assign num = partes[0] %}
       {% assign resto = partes[1] %}
-
-      {%- comment -%}
-        Verificar que num está compuesto SOLO por dígitos (1–3 cifras o más)
-      {%- endcomment -%}
-
-      {% assign solo_digitos = num 
-        | replace: '0',''
-        | replace: '1',''
-        | replace: '2',''
-        | replace: '3',''
-        | replace: '4',''
-        | replace: '5',''
-        | replace: '6',''
-        | replace: '7',''
-        | replace: '8',''
-        | replace: '9','' 
-      %}
-
-      {% if solo_digitos == '' %}
-        <div class="m">
-          <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
-        </div>
-      {% else %}
-        <div class="m">{{ linea }}</div>
-      {% endif %}
-
+      <div class="m">
+        <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
+      </div>
     {% else %}
       {% if limpio != '' %}
         <div class="m">{{ linea }}</div>
@@ -67,6 +41,7 @@
         <br>
       {% endif %}
     {% endif %}
+
 
   {% endfor %}
 
