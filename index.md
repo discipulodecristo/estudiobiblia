@@ -4,7 +4,7 @@ title: "Inicio"
 menu_titulo: "INICIO"
 anterior: "/estudiobiblia/#"
 indice: "/estudiobiblia/#"
-siguiente: "/estudiobiblia/ensayos/ladron-en-la-cruz.html"
+siguiente: "/estudiobiblia/ensayos/ladron.html"
 ---
 
 # Bienvenido a los Estudios Bíblicos UDDC
