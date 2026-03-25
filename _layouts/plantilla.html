@@ -4,14 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="stylesheet" href="/estudiobiblia/css/gentiumplus.css" />">
+  <!-- ✅ CARGA CORRECTA DEL CSS -->
+  <link rel="stylesheet" href="/estudiobiblia/css/gentiumplus.css">
 
   <title>{{ page.title }}</title>
 </head>
 
 <body>
 
-
+<!-- ✅ MENÚ SUPERIOR -->
 <ul class="tnav">
   <li><a href="{{ page.anterior }}">{{ page.menu_titulo }}</a></li>
   <li><a href="{{ page.anterior }}">&lt;</a></li>
@@ -19,11 +20,41 @@
   <li><a href="{{ page.siguiente }}">&gt;</a></li>
 </ul>
 
-
+<!-- ✅ CONTENIDO PROCESADO -->
 <div class="main">
-  {{ content }}
+
+  {% assign lineas = content | split: '
+' %}
+
+  {% for linea in lineas %}
+
+    {% assign limpio = linea | strip %}
+
+    {% if limpio contains '%%' and limpio != '' %}
+
+      {% assign partes = limpio | split: '%%' %}
+      {% assign num = partes[0] %}
+      {% assign resto = partes[1] %}
+
+      <div class="m">
+        <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
+      </div>
+
+    {% else %}
+
+      {% if limpio != '' %}
+        <div class="m">{{ linea }}</div>
+      {% else %}
+        <br>
+      {% endif %}
+
+    {% endif %}
+
+  {% endfor %}
+
 </div>
 
+<!-- ✅ PIE DE PÁGINA -->
 <footer style="text-align:center;margin-top:2em;">
   <p>© 2007, 2019, 2024 Iglesia Bautista Bíblica de la Gracia</p>
 </footer>
