@@ -1,5 +1,5 @@
 ---
-layout: estudio
+layout: plantilla
 title: "El Ladrón en la Cruz"
 menu_titulo: "EL LADRON EN LA CRUZ"
 anterior: "/index.htm"
