@@ -23,7 +23,7 @@
 <!-- ✅ CONTENIDO PROCESADO -->
 <div class="main">
 
-  
+
   {% assign lineas = content | split: '
 ' %}
 
@@ -31,34 +31,28 @@
     {% assign limpio = linea | strip %}
 
     {%- comment -%}
-      EXTRAEMOS SOLO EL INICIO DE LA LÍNEA HASTA "%%"
+      Detecta SOLO si la línea EMPIEZA con un número seguido de %%
     {%- endcomment -%}
 
-    {% if limpio contains '%%' %}
+    {% assign pos = limpio | slice: 0, 1 %}
+
+    {% if pos >= '0' and pos <= '9' and limpio contains '%%' %}
       {% assign partes = limpio | split: '%%' %}
-      {% assign posible_num = partes[0] %}
+      {% assign num = partes[0] %}
+      {% assign resto = partes[1] %}
 
-      {%- comment -%}
-        VALIDAR: ¿ES SOLO NÚMERO Y ESTÁ AL PRINCIPIO?
-      {%- endcomment -%}
-
-      {% if posible_num == posible_num | replace: possible_num, possible_num | plus: 0 %}
-        <!-- ES NÚMERO -->
-        <div class="m">
-          <span class="verse">{{ posible_num }}&nbsp;</span> {{ partes[1] }}
-        </div>
-      {% else %}
-        <!-- NO ES NÚMERO → SE MUESTRA NORMAL -->
-        <div class="m">{{ linea }}</div>
-      {% endif %}
+      <div class="m">
+        <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
+      </div>
 
     {% else %}
-      <!-- LÍNEA NORMAL -->
+
       {% if limpio != '' %}
         <div class="m">{{ linea }}</div>
       {% else %}
         <br>
       {% endif %}
+
     {% endif %}
 
   {% endfor %}
