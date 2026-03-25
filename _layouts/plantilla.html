@@ -25,23 +25,38 @@
 
 {% assign lineas = content | split: '
 ' %}
+
   {% for linea in lineas %}
     {% assign limpio = linea | strip %}
-    {% if limpio contains '@' and limpio != '' %}
-      {% assign partes = limpio | split: '@' %}
+
+    {%- comment -%}
+      PROCESAR PALABRAS DE JESÚS ([[ ... ]]) SIN TOCAR TU LÓGICA EXISTENTE
+    {%- endcomment -%}
+
+    {% assign frase = limpio %}
+    {% if frase contains '[[' %}
+      {% assign frase = frase | replace: '[[', '<span class="wj">' %}
+      {% assign frase = frase | replace: ']]', '</span>' %}
+    {% endif %}
+
+    {%- comment -%}
+      A PARTIR DE AQUÍ — TU CÓDIGO ORIGINAL DE VERSOS, SIN CAMBIOS
+    {%- endcomment -%}
+
+    {% if frase contains '@' and frase != '' %}
+      {% assign partes = frase | split: '@' %}
       {% assign num = partes[0] %}
       {% assign resto = partes[1] %}
       <div class="m">
         <span class="verse">{{ num }}&nbsp;</span> {{ resto }}
       </div>
     {% else %}
-      {% if limpio != '' %}
-        <div class="m">{{ linea }}</div>
+      {% if frase != '' %}
+        <div class="m">{{ frase }}</div>
       {% else %}
         <br>
       {% endif %}
     {% endif %}
-
 
   {% endfor %}
 
