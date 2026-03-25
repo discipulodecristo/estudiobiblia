@@ -9,11 +9,11 @@ siguiente: "/index.htm"
 
 # LUCAS 23
 
-39__ Y uno de los malhechores que estaban colgados, le injuriaba, diciendo: Si tú eres el Cristo, sálvate a ti mismo, y a nosotros.  
-**40__** Y respondiendo el otro, le reprendió, diciendo: ¿Ni aun tú temes a Dios, estando en la misma condenación?  
-**41__ Y nosotros, a la verdad, justamente, porque recibimos lo que merecieron nuestros hechos; mas éste ningún mal hizo.  
-42__* Y decía a Jesús: Señor, acuérdate de mí cuando vinieres en tu reino.  
-43__** Entonces Jesús le dijo: De cierto te digo, que hoy estarás conmigo en el paraíso.
+39_* Y uno de los malhechores que estaban colgados, le injuriaba, diciendo: Si tú eres el Cristo, sálvate a ti mismo, y a nosotros.  
+**40_*** Y respondiendo el otro, le reprendió, diciendo: ¿Ni aun tú temes a Dios, estando en la misma condenación?  
+**41_* Y nosotros, a la verdad, justamente, porque recibimos lo que merecieron nuestros hechos; mas éste ningún mal hizo.  
+42_** Y decía a Jesús: Señor, acuérdate de mí cuando vinieres en tu reino.  
+43_*** Entonces Jesús le dijo: De cierto te digo, que hoy estarás conmigo en el paraíso.
 
 Como siempre: **CONTEXTO.**  
 Recordemos que Jesús ministró **EXCLUSIVAMENTE** a los Judíos.
