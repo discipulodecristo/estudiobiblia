@@ -28,12 +28,12 @@
 
   {% for linea in lineas %}
     {% assign limpio = linea | strip %}
-
+    {% assign frase = limpio %}
+  
     {%- comment -%}
       PROCESAR PALABRAS DE JESÚS ([[ ... ]]) SIN TOCAR TU LÓGICA EXISTENTE
     {%- endcomment -%}
 
-    {% assign frase = limpio %}
     {% if frase contains '[[' %}
       {% assign frase = frase | replace: '[[', '<span class="wj">' %}
       {% assign frase = frase | replace: ']]', '</span>' %}
@@ -44,7 +44,7 @@
       PROCESAR PALABRAS EN COLOR ROJO ({{ ...}}) SIN TOCAR TU LÓGICA EXISTENTE
     {%- endcomment -%}
 
-    {% assign frase = limpio %}
+    {%- comment -%}{% assign frase = limpio %}{%- endcomment -%}
     {% if frase contains '{{' %}
       {% assign frase = frase | replace: '{{', '<span class="fth">' %}
       {% assign frase = frase | replace: '}}', '</span>' %}
@@ -55,8 +55,8 @@
       PROCESAR PALABRAS EN COLOR VERDE ((( ...))) SIN TOCAR TU LÓGICA EXISTENTE
     {%- endcomment -%}
 
-    {% assign frase = limpio %}
-    {% if frase contains '{{' %}
+    {%- comment -%}{% assign frase = limpio %}{%- endcomment -%}
+    {% if frase contains '((' %}
       {% assign frase = frase | replace: '((', '<span class="jc">' %}
       {% assign frase = frase | replace: '))', '</span>' %}
     {% endif %}
