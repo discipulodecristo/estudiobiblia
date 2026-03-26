@@ -41,13 +41,13 @@
 
 
    {%- comment -%}
-      PROCESAR PALABRAS EN COLOR ROJO ({{ ...}}) SIN TOCAR TU LÓGICA EXISTENTE
+      PROCESAR PALABRAS EN COLOR ROJO (_- ...-_) SIN TOCAR TU LÓGICA EXISTENTE
     {%- endcomment -%}
 
     {%- comment -%}{% assign frase = limpio %}{%- endcomment -%}
     {% if frase contains '{{' %}
-      {% assign frase = frase | replace: '{{', '<span class="fth">' %}
-      {% assign frase = frase | replace: '}}', '</span>' %}
+      {% assign frase = frase | replace: '_-', '<span class="fth">' %}
+      {% assign frase = frase | replace: '-_', '</span>' %}
     {% endif %}
 
 
