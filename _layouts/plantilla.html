@@ -39,6 +39,33 @@
       {% assign frase = frase | replace: ']]', '</span>' %}
     {% endif %}
 
+
+   {%- comment -%}
+      PROCESAR PALABRAS EN COLOR ROJO ({{ ...}}) SIN TOCAR TU LÓGICA EXISTENTE
+    {%- endcomment -%}
+
+    {% assign frase = limpio %}
+    {% if frase contains '{{' %}
+      {% assign frase = frase | replace: '{{', '<span class="fth">' %}
+      {% assign frase = frase | replace: '}}', '</span>' %}
+    {% endif %}
+
+
+{%- comment -%}
+      PROCESAR PALABRAS EN COLOR VERDE ((( ...))) SIN TOCAR TU LÓGICA EXISTENTE
+    {%- endcomment -%}
+
+    {% assign frase = limpio %}
+    {% if frase contains '{{' %}
+      {% assign frase = frase | replace: '((', '<span class="jc">' %}
+      {% assign frase = frase | replace: '))', '</span>' %}
+    {% endif %}
+
+  
+
+
+  
+
     {%- comment -%}
       A PARTIR DE AQUÍ — TU CÓDIGO ORIGINAL DE VERSOS, SIN CAMBIOS
     {%- endcomment -%}
