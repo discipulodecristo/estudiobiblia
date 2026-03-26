@@ -26,6 +26,10 @@ Recordemos que Jesús ministró **EXCLUSIVAMENTE** a los Judíos.
 8@ Digo pues, que Cristo Jesús fue ministro de la circuncisión por la verdad de Dios, para confirmar las promesas hechas a los padres.
 8@ digo pues, que Cristo Jesùs fue ministro de la circuncisiòn por la verdad de Dios, para confirmar las promesas hecas a los padres. Amé, amén, Glora a Dios en las alturas!!!!
 
+A continuación palabras en rojo: {{esto está en rojo si todo salió bien}}
+Y a continuación en verde: ((esto estará en verde si salió bien)).
+ya se verá: [[esto será azul]]
+
 La Escritura lo confirma:
 
 ---
