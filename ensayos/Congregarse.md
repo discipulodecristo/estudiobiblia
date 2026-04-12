@@ -40,10 +40,8 @@ A continuación pretendo compartir contigo lo que la Biblia dice explícitamente
 # HEBREOS 10
  
 &#32;
-
- 25@ No dejando nuestra congregación, como algunos tienen por costumbre, mas exhortándonos; y tanto más, cuanto veis que aquel día se acerca.
-
- 39@ Y uno de los malhechores que estaban colgados, le injuriaba, diciendo: Si tú eres el Cristo, sálvate a ti mismo, y a nosotros.
+25@ No dejando nuestra congregación, como algunos tienen por costumbre, mas exhortándonos; y tanto más, cuanto veis que aquel día se acerca.
+39@ Y uno de los malhechores que estaban colgados, le injuriaba, diciendo: Si tú eres el Cristo, sálvate a ti mismo, y a nosotros.
 
 ---
 
@@ -132,20 +130,5 @@ Templo Antiguo y las Obras Muertas
 2.El servicio antiguo no hacía perfecto a nadie, pero la sangre de Cristo purifica de las obras muertas (servicio antiguo: viandas, animales…)
 
 3.Se hacían año con año, pero Cristo se ofreció a Dios una vez para siempre. 
-
----
-
----
-
-# ROMANOS 15
-&#32; 
-8@ Digo pues, que Cristo Jesús fue ministro de la circuncisión por la verdad de Dios, para confirmar las promesas hechas a los padres.
-8@ digo pues, que Cristo Jesùs fue ministro de la circuncisiòn por la verdad de Dios, para confirmar las promesas hecas a los padres. Amé, amén, Glora a Dios en las alturas!!!!
-
-A continuación palabras en rojo: -[esto está en rojo si todo salió bien]-
-Y a continuación en verde: ((esto estará en verde si salió bien)).
-ya se verá: [[esto será azul]]
-
-La Escritura lo confirma:
 
 ---
