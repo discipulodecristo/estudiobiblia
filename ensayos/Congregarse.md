@@ -13,7 +13,9 @@ PALABRAS EN ROJO: "-[]-"
 
 ---
 
-Congregarse: qué es exactamente.
+# Congregarse: qué es exactamente
+
+&#32;
 
 Los cristianos estamos acostumbrados a escuchar que debemos congregarnos. Tomamos esas palabras como ciertas, pero realmente casi nunca nos detenemos a pensar sobre el verdadero significado de la congregación cristiana.
 
@@ -27,6 +29,7 @@ Mi propuesta es que una congregación cristiana no se configura cuando un grupo 
 
 A continuación pretendo compartir contigo lo que la Biblia dice explícitamente acerca de una congregación cristiana. Estoy seguro que no coincidirá con tus usos y costrumbres, y tendrás dos opciones: escuchar la palabra de Dios o preferir tus tradiciones. Y eres libre de elegir.
 
+---
 
 -[¡Congrégate!]-
 
@@ -36,8 +39,12 @@ A continuación pretendo compartir contigo lo que la Biblia dice explícitamente
 
 25@ No dejando nuestra congregación, como algunos tienen por costumbre, mas exhortándonos; y tanto más, cuanto veis que aquel día se acerca.
 
+39@ Y uno de los malhechores que estaban colgados, le injuriaba, diciendo: Si tú eres el Cristo, sálvate a ti mismo, y a nosotros.
 
-Parte 1. **EL TEMPLO**
+---
+
+# Parte 1. **EL TEMPLO**
+&#32;
 
 Templo Antiguo y las Obras Muertas 
 
@@ -53,8 +60,10 @@ Porque si la sangre de los toros y de los machos cabríos, y la ceniza de una be
 
 Templo Antiguo y las Obras Muertas
 
-> El templo antiguo y el servicio en él, eran sombras de lo que vendría.
+1. El templo antiguo y el servicio en él, eran sombras de lo que vendría.
 
-> El servicio antiguo no hacía perfecto a nadie, pero la sangre de Cristo purifica de las obras muertas (servicio antiguo: viandas, animales…)
+2. El servicio antiguo no hacía perfecto a nadie, pero la sangre de Cristo purifica de las obras muertas (servicio antiguo: viandas, animales…)
 
-> Se hacían año con año, pero Cristo se ofreció a Dios una vez para siempre. 
+3. Se hacían año con año, pero Cristo se ofreció a Dios una vez para siempre. 
+
+---
