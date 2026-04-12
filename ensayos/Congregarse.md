@@ -13,10 +13,6 @@ PALABRAS EN ROJO: "-[]-"
 
 ---
 
-
-
-&#32
-&#32
 # Congregarse: qué es exactamente
 
 &#32;
