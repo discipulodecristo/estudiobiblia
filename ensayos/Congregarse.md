@@ -5,13 +5,10 @@ menu_titulo: "Congregarse: qué es exactamente."
 anterior: "/estudiobiblia/index.html"
 indice: "index.htm"
 siguiente: "index.htm"
-DESPUES_LIBRO_CAP: "&#32;"
-INDICADOR_VERSICULO: " NUM@ "
-PALABRAS_JESUS: "[[ ]]"
-PALABRAS EN VERDE: "(( ))"
-PALABRAS EN ROJO: "-[]-"
 
 ---
+
+
 
 # Congregarse: qué es exactamente
 
@@ -60,10 +57,10 @@ Porque si la sangre de los toros y de los machos cabríos, y la ceniza de una be
 
 Templo Antiguo y las Obras Muertas
 
-1. El templo antiguo y el servicio en él, eran sombras de lo que vendría.
+1.El templo antiguo y el servicio en él, eran sombras de lo que vendría.
 
-2. El servicio antiguo no hacía perfecto a nadie, pero la sangre de Cristo purifica de las obras muertas (servicio antiguo: viandas, animales…)
+2.El servicio antiguo no hacía perfecto a nadie, pero la sangre de Cristo purifica de las obras muertas (servicio antiguo: viandas, animales…)
 
-3. Se hacían año con año, pero Cristo se ofreció a Dios una vez para siempre. 
+3.Se hacían año con año, pero Cristo se ofreció a Dios una vez para siempre. 
 
 ---
