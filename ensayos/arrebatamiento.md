@@ -7,6 +7,15 @@ indice: "index.htm"
 siguiente: "index.htm"
 ---
 
+Preludio:
+
+# HECHOS 1
+&#32;
+9@ Y cuando él [Jesús] hubo dicho estas cosas, mirando ellos, él fue alzado, y una nube le recibió delante de sus ojos.
+10@ Y estando ellos con los ojos puestos en el cielo entre tanto que él iba, he aquí, dos varones se pusieron de pie junto a ellos en vestiduras blancas;
+11@ Los cuales también les dijeron: Varones galileos ¿por qué estáis de pie mirando al cielo? Este mismo Jesús que ha sido tomado arriba de vosotros al cielo, así vendrá, como le habéis visto ir al cielo.
+
+
 El versículo más explícito en toda la Escritura que habla acerca de un “arrebatamiento” es el siguiente:
 
 1 Tesalonicenses 4:17 “Después nosotros, los que vivimos, los que quedamos, juntamente con ellos seremos [[arrebatados]] en las nubes a recibir al Señor en el aire; y así estaremos siempre con el Señor.”
