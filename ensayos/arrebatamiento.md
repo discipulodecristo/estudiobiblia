@@ -25,7 +25,7 @@ Lo primero que notamos es que hay un tema preponderante en esa carta: ((LA VENID
 
 # 1 TESALONICENSES 2
 &#32;
-(Pablo los exalta por haber recibido y vivido el evangelio)
+Pablo los exalta por haber recibido y vivido el evangelio.
 
 17@ Mas, hermanos, nosotros privados de vosotros por un poco de tiempo, de vista, no del corazón, tanto más procuramos, con mucho deseo ver vuestro rostro.
 18@ Por lo cual quisimos venir a vosotros, yo Pablo a la verdad, una vez y dos; mas nos estorbó Satanás.
@@ -33,7 +33,7 @@ Lo primero que notamos es que hay un tema preponderante en esa carta: ((LA VENID
 
 # 1 TESALONICENSES 3
 &#32;
-(Pablo, angustiado por no saber nada de ellos, envía a Timoteo)
+Pablo, angustiado por no saber nada de ellos, envía a Timoteo.
 
 5@ Por lo cual, también yo, no pudiendo sufrir más, envié para conocer vuestra fe, que no os haya tentado de algún modo el tentador, y que nuestro trabajo hubiese sido en vano.
 6@ Pero volviendo ahora de vosotros a nosotros Timoteo, y trayéndonos las buenas nuevas de vuestra fe y caridad; y que siempre tenéis buena memoria de nosotros, deseando ardientemente vernos, como también nosotros a vosotros:
@@ -45,7 +45,7 @@ Lo primero que notamos es que hay un tema preponderante en esa carta: ((LA VENID
 
 # 1 TESALONICENSES 4
 &#32;
-(últimas exhortaciones)
+Últimas exhortaciones.
 
 13@ Pero tampoco, hermanos, quiero que ignoréis acerca de los que duermen, para que no os entristezcáis como los otros que no tienen esperanza.
 14@ Pues si creemos que Jesús murió y resucitó, así también ((TRAERÁ)) Dios con él a los que durmieron en Jesús.
@@ -56,7 +56,7 @@ Lo primero que notamos es que hay un tema preponderante en esa carta: ((LA VENID
 
 # 1 TESALONICENSES 5
 &#32;
-(luego veremos cómo conecta con la enseñanza de Jesús)
+Luego veremos cómo conecta con la enseñanza de Jesús.
 
 1@ PERO acerca de los tiempos y de las estaciones, hermanos, no tenéis necesidad de que yo os escriba:
 2@ Porque vosotros mismos sabéis perfectamente, que [[EL DÍA DEL SEÑOR]] vendrá como un ladrón en la noche.
