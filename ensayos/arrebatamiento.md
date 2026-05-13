@@ -24,17 +24,15 @@ Lo primero que notamos es que hay un tema preponderante en esa carta: ((LA VENID
 10@ ((Y ESPERAR A SU HIJO DEL CIELO)), al cual él resucitó de entre los muertos, a Jesús, el cual nos libró de la ira que ha de venir.
 
 # 1 TESALONICENSES 2
-&#32;
 Pablo los exalta por haber recibido y vivido el evangelio.
-
+&#32;
 17@ Mas, hermanos, nosotros privados de vosotros por un poco de tiempo, de vista, no del corazón, tanto más procuramos, con mucho deseo ver vuestro rostro.
 18@ Por lo cual quisimos venir a vosotros, yo Pablo a la verdad, una vez y dos; mas nos estorbó Satanás.
 19@ Porque ¿Cuál es nuestra esperanza, o gozo, o corona de gloria? ¿No sois pues vosotros delante de nuestro Señor Jesús Cristo ((EN SU VENIDA))?
 
 # 1 TESALONICENSES 3
-&#32;
 Pablo, angustiado por no saber nada de ellos, envía a Timoteo.
-
+&#32;
 5@ Por lo cual, también yo, no pudiendo sufrir más, envié para conocer vuestra fe, que no os haya tentado de algún modo el tentador, y que nuestro trabajo hubiese sido en vano.
 6@ Pero volviendo ahora de vosotros a nosotros Timoteo, y trayéndonos las buenas nuevas de vuestra fe y caridad; y que siempre tenéis buena memoria de nosotros, deseando ardientemente vernos, como también nosotros a vosotros:
 7@ Por esto, hermanos, recibimos consolación de vosotros en toda nuestra aflicción y aprieto, por vuestra fe;
@@ -44,9 +42,8 @@ Pablo, angustiado por no saber nada de ellos, envía a Timoteo.
 13@ Para que sean confirmados vuestros corazones irreprensibles en santidad delante de Dios, y Padre nuestro, para ((LA VENIDA)) de nuestro Señor Jesús Cristo con todos sus santos.
 
 # 1 TESALONICENSES 4
-&#32;
 Últimas exhortaciones.
-
+&#32;
 13@ Pero tampoco, hermanos, quiero que ignoréis acerca de los que duermen, para que no os entristezcáis como los otros que no tienen esperanza.
 14@ Pues si creemos que Jesús murió y resucitó, así también ((TRAERÁ)) Dios con él a los que durmieron en Jesús.
 15@ Por lo cual os decimos esto por palabra del Señor, que nosotros que vivimos, que habemos quedado hasta ((LA VENIDA)) del Señor, no seremos delanteros a los que durmieron.
@@ -55,9 +52,8 @@ Pablo, angustiado por no saber nada de ellos, envía a Timoteo.
 18@ Por tanto consolaos los unos a los otros con estas palabras.
 
 # 1 TESALONICENSES 5
-&#32;
 Luego veremos cómo conecta con la enseñanza de Jesús.
-
+&#32;
 1@ PERO acerca de los tiempos y de las estaciones, hermanos, no tenéis necesidad de que yo os escriba:
 2@ Porque vosotros mismos sabéis perfectamente, que [[EL DÍA DEL SEÑOR]] vendrá como un ladrón en la noche.
 3@ Que cuando dirán, Paz y seguridad: entonces vendrá sobre ellos destrucción de repente, como los dolores del parto sobre la mujer preñada; y no escaparán…
