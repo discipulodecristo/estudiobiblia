@@ -152,4 +152,4 @@ En la Septuaginta:
 
 Como conclusión:
 
-Nadie sabe cuándo volverá Jesucristo mas que Dios, por lo tanto, debemos estar preparados para ese día porque puede ser mañana, dentro de seis meses o dentro de cincuenta años. De su regreso toda la humanidad se enterará y ese día, los muertos en Cristo resucitarán y los que viven en Cristo serán transformados y recibiremos al Señor Jesús en las nubes el día de su regreso, y esto enseña la Escritura. No son dos regresos ni su venida es secreta.
+De su regreso toda la humanidad se enterará y ese día, los muertos en Cristo resucitarán y los que viven en Cristo serán transformados y recibiremos al Señor Jesús en las nubes el día de su regreso, y esto enseña la Escritura. No son dos regresos ni su venida es secreta.
